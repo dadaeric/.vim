@@ -85,6 +85,11 @@ Plug 'honza/vim-snippets'
 Plug 'tpope/vim-fugitive'             "fugitive插件:      git工具，用于查看两文件差异(比gitgutter好用)
 Plug 'airblade/vim-gitgutter'         "gitgutter插件：    用于显示Git diff等
 
+"Markdown相关插件
+"Plug 'godlygeek/tabular'
+"Plug 'plasticboy/vim-markdown'
+Plug 'mzlogin/vim-markdown-toc'
+
 
 " YouCompleteMe 系列插件
 " YCM-Generator插件: 用于生成YCM文件，与YCM配合使用
@@ -116,3 +121,4 @@ call plug#end()
 
 call SwitchColor()
 call Terminal_MetaMode(0)
+
